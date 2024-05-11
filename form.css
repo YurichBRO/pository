@@ -1,0 +1,30 @@
+.form {
+    background-color: rgb(53, 53, 65);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.form > h3 {
+    color: rgb(240, 212, 0);
+}
+
+.form > input {
+    border-radius: 3px;
+}
+
+.form > button {
+    background: rgb(255,194,0);
+    background: linear-gradient(90deg, rgba(255,194,0,1) 0%, rgba(240,212,0,1) 100%);
+}
+
+.form > hr {
+    border: none;
+    border-top: 2px dotted rgba(255, 255, 255, 150);
+    margin: inherit;
+}
+
+.form > p {
+    color: white;
+}
